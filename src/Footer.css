@@ -1,0 +1,28 @@
+.footer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 100%;
+  margin-top: 100px;
+  background: rgb(87, 60, 7);
+  padding: 20px 20px 20px 90px;
+  align-items: center;
+  color: white;
+}
+.footer li {
+  list-style: none;
+}
+
+.footersubtext,
+p {
+  font-size: 10px;
+}
+input {
+  min-height: 30px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px 5px;
+}
+.submit:hover {
+  border: white;
+}

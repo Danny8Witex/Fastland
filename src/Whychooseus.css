@@ -1,0 +1,39 @@
+.whychooseuscontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  /* margin-top: 20px; */
+  min-height: 30vh;
+}
+
+.whychooseustext p {
+  color: rgb(166, 118, 21);
+
+  text-decoration: underline;
+}
+.whychooseustext h3 {
+  color: #2f4858;
+  margin-top: 30px;
+  font-size: 40px;
+}
+.whychooseustext h5 {
+  margin-top: 30px;
+  color: rgba(70, 49, 8, 0.527);
+}
+.whychoosebutton {
+  transition: 0.2s;
+  margin-top: 20px;
+  padding: 10px 70px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(166, 118, 21);
+}
+
+.whychoosebutton:hover {
+  background-color: rgba(73, 70, 70, 0.327);
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.Features {
+  text-align: center;
+  color: rgb(166, 118, 21);
+  width: 100%;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.card1,
+.card2 {
+  width: 70%;
+  height: 40vh;
+  box-shadow: 0px 0px 10px #eee;
+  text-align: center;
+  padding: 15px;
+}
+.goalhead,
+.trackhead {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #2f4858;
+}
+.goalbody,
+.trackbody {
+  color: #b6a999;
+
+  font-size: 15px;
+}
+.cardcontainer {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-gap: 20px;
+  padding: 50px;
+  place-items: center;
+}
