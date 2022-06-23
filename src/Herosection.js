@@ -4,7 +4,7 @@ return(
     <div className="background">
     <div className="background2">
     <ul>
-    <li className='logo'>Logo</li>
+    <li className='logo'>FASTLAND</li>
     <li>Home</li>
     <li>About Us</li>
     <li>Service</li>
