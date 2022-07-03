@@ -34,3 +34,18 @@
   padding: 50px;
   place-items: center;
 }
+@media only screen and (max-width: 400px) {
+  .cardcontainer {
+    max-width: 100%;
+    display: block;
+    /* grid-template-rows: 100%; */
+    /* grid-gap: 20px; */
+    padding: 10px;
+    /* place-items: center; */
+    /* margin-bottom: 50px; */
+  }
+  .card1,
+  .card2 {
+    margin-bottom: 40px;
+  }
+}

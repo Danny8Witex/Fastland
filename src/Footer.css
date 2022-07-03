@@ -26,3 +26,21 @@ input {
 .submit:hover {
   border: white;
 }
+@media only screen and (max-width: 400px) {
+  .footer {
+    /* display: block; */
+    grid-template-columns: 50% 50%;
+    margin: 5px 5px 0px 0px;
+    padding: 20px 20px 10px 20px;
+  }
+  .footer li {
+    padding-bottom: 5px;
+  }
+  .footer ul {
+    margin-bottom: 20px;
+  }
+  .submit {
+    padding: 6px 65px;
+    background-color: rgb(166, 118, 21);
+  }
+}
